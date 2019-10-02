@@ -6,7 +6,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 const getAbout = graphql`
 query aboutImg{
-    aboutImg:file(relativePath:{eq:"defaultBcg.jpeg"}){
+    aboutImg:file(relativePath:{eq:"projectsHero.jpg"}){
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_tracedSVG
@@ -22,7 +22,7 @@ const About = () => {
     return (
         <section className={styles.about}>
 
-            <Title title="about" subtitle="us"/>
+            <Title title="about" subtitle="Angelo"/>
             <div className={styles.aboutCenter}>
                 <article className={styles.aboutImg}>
                     <div className={styles.imgContainer}>

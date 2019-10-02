@@ -13,7 +13,7 @@ query Images{
       }
     }
   }
-  fluid:file(relativePath:{eq:"portrait1.jpeg"}){
+  fluid:file(relativePath:{eq:"portrait1.jpg"}){
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_tracedSVG

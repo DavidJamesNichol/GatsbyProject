@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import logo from "../images/logo.svg"
 import { FaAlignRight } from "react-icons/fa"
 import styles from "../css/navbar.module.css"
 import links from "../constants/links"
@@ -16,7 +15,9 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={styles.navCenter}>
                 <div className={styles.navHeader}>
-                    <img src={logo} alt="backgrouds logo"/>
+                <AniLink fade to="/">
+                    <h1 style={{ margin: 0 }}>Angelo Marr</h1>
+                </AniLink>
                     <button type="button" className={styles.logoBtn} onClick={toggleNav}>
                         <FaAlignRight className={styles.logoIcon}/>
                     </button>

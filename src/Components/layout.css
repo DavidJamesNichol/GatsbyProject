@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
 :root {
-    --primaryColor: #3fd0d4;
+    --primaryColor: rgb(165, 19, 19);
     --mainWhite: #fff;
     --offWhite: #f7f7f7;
-    --mainBlack: #222;
+    --mainBlack: #111;
     --mainGrey: #ececec;
     --darkGrey: #afafaf;
     --mainTransition: all 0.3s linear;
@@ -40,11 +40,12 @@ p {
     margin-bottom: 1.25rem;
 }
 a {
+    color: inherit;
     text-decoration: none;
 }
 .defaultHero {
     min-height: calc(100vh - 62px);
-    background: linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7)), center/cover no-repeat;
+    background: linear-gradient(rgba(165, 19, 19, 0.7), rgba(0, 0, 0, 0.7)), center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;

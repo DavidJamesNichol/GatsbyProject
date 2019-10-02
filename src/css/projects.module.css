@@ -16,10 +16,12 @@
 }
 .img {
   transition: var(--mainTransition);
+  height: 60vh !important;
 }
 .img-container:hover .img {
   opacity: 0.3;
 }
+
 
 .link {
   position: absolute;

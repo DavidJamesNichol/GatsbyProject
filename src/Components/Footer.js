@@ -16,7 +16,6 @@ const Footer = () => {
                     )
                 })}
             </div>
-            <h1>I'm a Footer!!!!</h1>
             <div className={styles.icons}>
                 {socialIcons.map((item, index) => {
                     return (
@@ -25,8 +24,7 @@ const Footer = () => {
                 })}
             </div>
             <div className={styles.copyright}>
-                copyright &copy; backroads travel company {new Date().getFullYear()}
-                all rights reserved
+                copyright &copy; Angelo Marr Photography {new Date().getFullYear()}
             </div>
         </footer>
     )

@@ -15,7 +15,8 @@ const Title = ({title, subtitle}) => {
 const TitleWrapper = styled.div `
 text-transform: uppercase;
 font-size: 2.3rem;
-margin-bottom: 2rem;
+margin-bottom: 1.5rem;
+margin-top: 1.5rem;
 h4{
   text-align: center;
   letter-spacing: 7px;
@@ -26,6 +27,7 @@ span{
 }
 .title{
   color: var(--mainBlack);
+  
 }
 @media(min-width:576px){
   span{

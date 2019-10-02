@@ -1,17 +1,17 @@
 import React from 'react'
-import {FaFacebook, FaTwitterSquare, FaSquarespace} from 'react-icons/fa'
+import {FaFacebook, FaTwitterSquare, FaInstagram} from 'react-icons/fa'
 
 export default [
   {
     icon: <FaFacebook/>,
-    url:'https://facebook.com'
+    url:'https://www.facebook.com/angelomarrphotography/?ref=py_c'
+  },
+  {
+    icon: <FaInstagram/>,
+    url:'https://www.instagram.com/angelo.marr_portraits/'
   },
   {
     icon: <FaTwitterSquare/>,
-    url:'https://twitter.com'
+    url:'https://mobile.twitter.com/angelo_portrait'
   },
-  {
-    icon: <FaSquarespace/>,
-    url:'https://squarespace.com'
-  }
 ]

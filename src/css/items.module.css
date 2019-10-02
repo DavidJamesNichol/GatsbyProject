@@ -1,5 +1,24 @@
+.banner {
+  text-align: center;
+  letter-spacing: var(--mainSpacing);
+  color: var(--primaryColor);
+}
+.banner h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  letter-spacing: 6px;
+}
+.banner p {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+
+
 .tours {
-  padding: 4rem 0;
   text-align: center;
 }
 .center {
@@ -11,6 +30,12 @@
   grid-row-gap: 2rem;
 }
 @media screen and (min-width: 576px) {
+  .banner h1 {
+    font-size: 4.5rem;
+  }
+  .banner p {
+    width: 70%;
+  }
   .center {
     grid-template-columns: repeat(auto-fill, minmax(368.66px, 1fr));
   }

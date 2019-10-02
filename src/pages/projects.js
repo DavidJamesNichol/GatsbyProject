@@ -3,19 +3,20 @@ import React, { Component } from 'react'
 import Layout from '../Components/Layout'
 import StyledHero from '../Components/StyledHero'
 import { graphql } from 'gatsby'
+import FeaturedProjects from '../components/Home/FeaturedProjects'
 
-export default class Blog extends Component {
+export default class projects extends Component {
 render() {
     return (
         <Layout>
-            <StyledHero img={this.props.data.blogBcg.childImageSharp.fluid} />
-                {/* <Link to="/Tours/">Tours Page</Link> */}
+            <StyledHero img={this.props.data.defaultBcg.childImageSharp.fluid} />
+            <FeaturedProjects />
         </Layout>
-    )}
+    )} 
 } 
 export const query = graphql`
 query {
-    blogBcg:file(relativePath:{eq:"blogBcg.jpeg"}){
+    defaultBcg:file(relativePath:{eq:"projectsHero.jpg"}){
       childImageSharp {
         fluid(quality: 90, maxWidth: 4160) {
             ...GatsbyImageSharpFluid_withWebp

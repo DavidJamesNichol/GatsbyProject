@@ -4,20 +4,20 @@ import { FaWallet, FaTree, FaSocks } from "react-icons/fa"
 export default [
   {
     icon: <FaWallet />,
-    title: "saving money",
+    title: "Portrait Photography",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "Portrait Photography, or Portraiture Photography, captures your unique personality through artistic use of lighting, backdrops, and poses. Recommended for Branding Photography",
   },
   {
     icon: <FaTree />,
-    title: "endless hiking",
+    title: "Studio Photography",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "Studio Photography is done in a room designed to optimize a professional photographer's environment. Recommended for professional/corporate photography.",
   },
   {
     icon: <FaSocks />,
-    title: "amazing comfort",
+    title: "Beauty Photography",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "Beauty Photography is a collaborative effort between your photographer and stylist to highlight your beauty. Recommended for models and fashion product marketing.",
   },
 ]
